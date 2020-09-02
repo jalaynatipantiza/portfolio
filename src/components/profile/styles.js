@@ -7,8 +7,8 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   profilePic: {
-    width: "45rem",
-    height: "57rem",
+    width: "35rem",
+    height: "47rem",
   },
   profileContainer:{
     display: "flex",
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "4em 4em 0 4em"
     },
   words: {
-    font: "initial",
+    fontFamily: "Abhaya Libre",
     color: "white",
     fontSize: "4em",
     display: "flex",
