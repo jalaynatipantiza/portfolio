@@ -7,13 +7,22 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   profilePic: {
-    width: "48rem",
-    height: "58rem",
-    padding: "5rem"
+    width: "45rem",
+    height: "57rem",
   },
   profileContainer:{
     display: "flex",
     justifyContent: "center",
+  },
+  caption: {
+    padding: "4em 4em 0 4em"
+    },
+  words: {
+    font: "initial",
+    color: "white",
+    fontSize: "4em",
+    display: "flex",
+    textAlign: "center"
   }
 }));
 
