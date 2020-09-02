@@ -12,7 +12,7 @@ export default function SimpleContainer() {
       <CssBaseline />
         <Navbar/>
         <Typography component="div" className={classes.background}/> 
-        <img  src={require('../../docs/')}></img>
+        <img style={{height:"100vh", width:"100vw"}} src={require('../../docs/jalayna.jpg')} alt="landscape"/>
     </React.Fragment>
   );
 }
