@@ -15,6 +15,7 @@ export default function ProjectCard(props) {
           <Grid item>
             <ButtonBase className={classes.image}>
               <img className={classes.img} alt="complex" src="/static/images/grid/complex.jpg" />
+              {/* <img className={classes.img}  alt="AtlasJams"  src={img}/> */}
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
@@ -24,20 +25,17 @@ export default function ProjectCard(props) {
                   {props.title}
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                  Full resolution 1920x1080 • JPEG
-                </Typography>
-                <Typography variant="body2" color="textSecondary">
-                  ID: 1030114
+                  {props.description}
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography variant="body2" style={{ cursor: 'pointer' }}>
-                  Remove
+                  Front-end: {props.frontEnd}
+                </Typography>
+                <Typography variant="body2" style={{ cursor: 'pointer' }}>
+                Back-end: {props.backEnd}
                 </Typography>
               </Grid>
-            </Grid>
-            <Grid item>
-              <Typography variant="subtitle1">$19.00</Typography>
             </Grid>
           </Grid>
         </Grid>
