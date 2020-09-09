@@ -14,8 +14,7 @@ export default function ProjectCard(props) {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="/static/images/grid/complex.jpg" />
-              {/* <img className={classes.img}  alt="AtlasJams"  src={img}/> */}
+              <img className={classes.img} alt="complex" src={props.img} />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>

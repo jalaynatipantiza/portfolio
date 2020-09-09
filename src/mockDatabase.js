@@ -3,7 +3,8 @@ const projects = [
     title: "Atlas Jams | August 2020",
     description: "A platform  for hosts, performers, and ones who are looking for music events to attend. Allows performers to advertise musical talent and hosts to showcase spaces. Allows the ability to save upcoming events in a calendar. ",
     frontEnd: "React",
-    backEnd: "PSQL, Ruby on Rails"
+    backEnd: "PSQL, Ruby on Rails",
+    img: "https://images.unsplash.com/photo-1553290322-0440fe3b1ddd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
   },
   {
     title: "BrewMaps | July 2020",

@@ -10,7 +10,7 @@ function App() {
   console.log(projects);
   const projectList = projects.map(project => {
     return (
-      <ProjectCard title={project.title} description={project.description} frontEnd={project.frontEnd} backEnd={project.backEnd} />
+      <ProjectCard title={project.title} description={project.description} frontEnd={project.frontEnd} backEnd={project.backEnd} img={project.img} />
     )
   })
   return (
