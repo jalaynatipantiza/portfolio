@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/nav/navbar';
 import PhotoIntro from './components/profile/landingpage';
 import ProjectCard from './components/projects/projects';
 import projects from './mockDatabase'
 import useStyles from "./appStyles"
+import BottomNav from './components/breadcrumbs/bottomNav';
 
 function App() {
   const classes = useStyles();
@@ -21,6 +20,7 @@ function App() {
       <h1 style={{color: "white"}}>Latest Projects!</h1>
       {projectList}
       </div>
+      <BottomNav/> 
     </div>
  
   );
