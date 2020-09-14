@@ -27,6 +27,7 @@ export default function IconBreadcrumbs() {
         <LinkedInIcon className={classes.icon}/>
         LinkedIn
       </Link>
+      
     </Breadcrumbs>
   );
 }

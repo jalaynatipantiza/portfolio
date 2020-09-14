@@ -17,12 +17,11 @@ function App() {
     <div style={{backgroundColor: '#14141f'}}>
       <PhotoIntro/>
       <div className={classes.projects}>
-      <h1 style={{color: "white"}}>Latest Projects!</h1>
+      <h1 style={{color: "white", fontFamily: "initial", fontSize: "x-large"}}>CHECK OUT MY WORK!</h1>
       {projectList}
       </div>
       <BottomNav/> 
     </div>
- 
   );
 }
 
