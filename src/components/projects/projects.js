@@ -4,13 +4,14 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import useStyles from "./styles"
+import Link from '@material-ui/core/Link';
 
 export default function ProjectCard(props) {
   const classes = useStyles();
-
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper}>
+      <Paper className={classes.paper} >
+        <Link href={props.link} target="_blank" style={{ textDecoration: 'none', color: "black" }} color="inherit">
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
@@ -38,6 +39,7 @@ export default function ProjectCard(props) {
             </Grid>
           </Grid>
         </Grid>
+      </Link>
       </Paper>
     </div>
   );

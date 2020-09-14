@@ -11,7 +11,7 @@ function App() {
   const classes = useStyles();
   const projectList = projects.map(project => {
     return (
-      <ProjectCard title={project.title} description={project.description} frontEnd={project.frontEnd} backEnd={project.backEnd} img={project.img} />
+      <ProjectCard title={project.title} description={project.description} frontEnd={project.frontEnd} backEnd={project.backEnd} img={project.img} link={project.link} />
     )
   })
   return (
