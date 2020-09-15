@@ -3,8 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   profilePic: {
-    width: "35rem",
-    height: "47rem",
+    height: "73vh",
   },
   profileContainer:{
     display: "flex",

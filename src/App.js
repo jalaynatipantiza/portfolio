@@ -22,14 +22,16 @@ function App() {
       <main>
         <section>
           <div style={{backgroundColor: '#14141f'}}>
-            <Route exactl={true} path='/' component={Navbar} />
+            <Route  path='/' component={Navbar} />
+  
+            <Route exact={true} path='/' component={PhotoIntro} />
             <Route exact={true} path='/about' component={About} />
-            <Route exactl={true} path='/' component={PhotoIntro} />
             <div className={classes.projects}>
               <h1 style={{color: "white", fontFamily: "initial", fontSize: "x-large"}}>CHECK OUT MY WORK!</h1>
-              <Route exactl={true} path='/' render={() => projectList} />
+              <Route path='/' render={() => projectList} />
             </div>
-            <Route exactl={true} path='/' component={BottomNav}/>
+            <Route path='/' component={BottomNav}/>
+
           </div>
         </section>
       </main>
