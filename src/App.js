@@ -5,6 +5,8 @@ import ProjectCard from './components/projects/projects';
 import projects from './mockDatabase'
 import useStyles from "./appStyles"
 import BottomNav from './components/breadcrumbs/bottomNav';
+import Navbar from './components/nav/navbar';
+import About from './components/aboutMe/about';
 
 function App() {
   const classes = useStyles();
@@ -15,7 +17,9 @@ function App() {
   })
   return (
     <div style={{backgroundColor: '#14141f'}}>
-      <PhotoIntro/>
+      <Navbar/>
+      {/* <PhotoIntro/> */}
+      <About/>
       <div className={classes.projects}>
       <h1 style={{color: "white", fontFamily: "initial", fontSize: "x-large"}}>CHECK OUT MY WORK!</h1>
       {projectList}
