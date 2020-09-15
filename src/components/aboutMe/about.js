@@ -7,6 +7,7 @@ import Paper from '@material-ui/core/Paper';
 import Slide from '@material-ui/core/Slide';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import DescriptionBox from './descriptionBox';
+import TechStackBox from './techStackBox';
 
 
 export default function About() {
@@ -33,6 +34,12 @@ export default function About() {
                 <DescriptionBox/>
               </Paper>
             </Slide>
+            <Slide direction="up" in={checked} mountOnEnter unmountOnExit>
+              <Paper elevation={4} className={classes.paper}>
+              <TechStackBox/>
+              </Paper>
+            </Slide>
+            
           </div>
         </div>
 

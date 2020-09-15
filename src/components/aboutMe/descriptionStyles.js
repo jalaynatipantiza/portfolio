@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   root: {
-    minWidth: "60em",
+   minWidth: "50em"
   },
   title: {
     fontSize: 30,

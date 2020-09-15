@@ -1,18 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-  profilePicture: {
-    width: "27em",
-    height: "35em",
-    borderRadius: "50%",
-    margin: "2em",
-    padding: "5em 3em 5em 3em;"
-  },
-  aboutProfileImg:{
-   display: "flex"
-  },
+  
   root: {
-    marginTop: "5em"
+    minWidth: "50em",
+    
 
   },
   wrapper: {
@@ -23,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     margin: theme.spacing(1),
   },
- 
   
 }));
 
