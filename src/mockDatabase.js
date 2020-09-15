@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Atlas Jams | August 2020",
     description: "A platform  for hosts, performers, and ones who are looking for music events to attend. Allows performers to advertise musical talent and hosts to showcase spaces. Allows the ability to save upcoming events in a calendar. ",
-    frontEnd: "React",
+    frontEnd: "React, Material ui",
     backEnd: "PSQL, Ruby on Rails",
     img: atlasJams,
     link: "https://github.com/jalaynatipantiza/atlas-Jams"
