@@ -10,7 +10,27 @@ const useStyles = makeStyles((theme) => ({
   },
   aboutProfileImg:{
    padding: "7em 10em 2em;",
-  }
+  },
+  root: {
+    height: 180,
+  },
+  wrapper: {
+    width: 100 + theme.spacing(2),
+  },
+  paper: {
+    zIndex: 1,
+    position: 'relative',
+    margin: theme.spacing(1),
+  },
+  svg: {
+    width: 100,
+    height: 100,
+  },
+  polygon: {
+    fill: theme.palette.common.white,
+    stroke: theme.palette.divider,
+    strokeWidth: 1,
+  },
 }));
 
 export default useStyles;
