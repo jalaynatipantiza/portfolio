@@ -9,6 +9,7 @@ import TechStackBox from './techStackBox';
 
 export default function About() {
   const classes = useStyles();
+  // window.scroll(0, 1000)
   
   return (
   <React.Fragment>

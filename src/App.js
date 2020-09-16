@@ -8,6 +8,7 @@ import projects from './mockDatabase'
 import PhotoIntro from './components/profile/landingpage';
 import Navbar from './components/nav/navbar';
 import BottomNav from './components/breadcrumbs/bottomNav'
+import { CSSTransition, TransitionGroup} from 'react-transition-group';
 
 
 function App() {
@@ -22,16 +23,26 @@ function App() {
       <main>
         <section>
         <div style={{backgroundColor: '#14141f'}}>
-        <Route  path='/' component={Navbar} />
-        <Switch>
-          <Route exact={true} path='/' component={PhotoIntro} />
-          <Route exact={true} path='/' component={About}/>
-        </Switch>
+          <Navbar/>
+        <Route render={({location}) => (
+          <TransitionGroup>
+            <CSSTransition
+              key={location.key}
+              timeout={450}
+              classNames="fade"
+            >
+              <Switch location={location}>
+                <Route exact path="/" component={PhotoIntro} />
+                <Route path="/about" component={About} />
+              </Switch>
+            </CSSTransition>
+          </TransitionGroup>
+        )} />
         <div className={classes.projects}>
           <h1 style={{color: "white", fontFamily: "initial", fontSize: "x-large"}}>CHECK OUT MY WORK!</h1>
           <Route path='/' render={() => projectList} />
         </div>
-        <Route path='/' component={BottomNav}/>
+        <BottomNav/>
           </div>
         </section>
       </main>
