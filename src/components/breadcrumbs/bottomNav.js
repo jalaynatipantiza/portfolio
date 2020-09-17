@@ -10,6 +10,8 @@ export default function IconBreadcrumbs() {
   const classes = useStyles();
 
   return (
+    <div className={classes.div}>
+
     <Breadcrumbs aria-label="breadcrumb" style={{color: "white"}}>
       <Link
         href="https://github.com/jalaynatipantiza"
@@ -29,5 +31,6 @@ export default function IconBreadcrumbs() {
       </Link>
       
     </Breadcrumbs>
+    </div>
   );
 }

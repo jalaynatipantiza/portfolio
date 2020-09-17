@@ -5,9 +5,11 @@ const useStyles = makeStyles((theme) => ({
   projects: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center"
+    alignItems: "center",
+    backgroundColor: "#004d4d",
+    
   },
-  background: {
+  background1: {
     backgroundImage: `url(${background1})`,
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",

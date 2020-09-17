@@ -31,7 +31,7 @@ function App() {
     <Router>
       <main>
         <section>
-        <div className={classes.background} style={{transform: `translateY(-${offsetY * 0.5}px)`}}>
+        <div className={classes.background1} style={{transform: `translateY(-${offsetY * 0.5}px)`}}>
           <Navbar/>
         <Route render={({location}) => (
           <TransitionGroup>
@@ -50,9 +50,8 @@ function App() {
           </TransitionGroup>
         )} />
         <div className={classes.projects}>
-          <h1 style={{color: "white", fontFamily: "initial", fontSize: "x-large"}}>CHECK OUT MY WORK!</h1>
+          <h1 style={{color: "white", fontFamily: "initial", margin: "40px 0 0", padding: "40px 0 0 ", fontSize: "40px"}}>CHECK OUT MY WORK!</h1>
           <Route path='/' render={() => projectList} />
-          
         </div>
         <BottomNav/>
           </div>
