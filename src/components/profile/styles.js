@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   profilePic: {
-    height: "73vh",
+    height: "73vh"
   },
   profileContainer:{
     display: "flex",
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     },
   words: {
     fontFamily: "Abhaya Libre",
-    color: "white",
+    color: "Black",
     fontSize: "4em",
     display: "flex",
     textAlign: "center"

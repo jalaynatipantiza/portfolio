@@ -38,7 +38,7 @@
 }
 
 /* simple - enter transition 300ms, exit 150ms */
-.fade-appear,
+/* .fade-appear,
 .fade-enter {
     opacity: 0;
     z-index: 1;
@@ -56,6 +56,6 @@
 .fade-exit.fade-exit-active {
     opacity: 0;
     transition: opacity 150ms linear;
-}
+} */
 
 
