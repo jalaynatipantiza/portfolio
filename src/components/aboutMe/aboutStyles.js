@@ -9,11 +9,11 @@ const useStyles = makeStyles((theme) => ({
     padding: "5em 3em 5em 3em;"
   },
   aboutProfileImg:{
-   display: "flex"
+   display: "flex",
+   backgroundColor: " rgba(0,0,0,.5)"
   },
   root: {
     marginTop: "5em"
-
   },
   wrapper: {
     width: 100 + theme.spacing(2),
