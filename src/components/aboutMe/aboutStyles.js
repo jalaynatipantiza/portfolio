@@ -2,15 +2,21 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   profilePicture: {
-    width: "27em",
-    height: "35em",
+    // verticalAlign: "middle",
+    maxWidth: "50%",
+    maxHeight: "50%",
     borderRadius: "50%",
-    margin: "2em",
+    // width: "27rem",
+    // height: "35rem",
+    // borderRadius: "50%",
+    // margin: "2em",
     padding: "5em 3em 5em 3em;"
   },
-  aboutProfileImg:{
+  aboutBackground:{
    display: "flex",
-   backgroundColor: " rgba(0,0,0,.5)"
+   backgroundColor: " rgba(0,0,0,.5)",
+   height: "100vh",
+   
   },
   root: {
     marginTop: "5em"
@@ -21,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     zIndex: 1,
     position: 'relative',
+    objectFit: "cover",  
     margin: theme.spacing(1),
   },
  

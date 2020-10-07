@@ -14,7 +14,7 @@ export default function About() {
   return (
   <React.Fragment>
   <CssBaseline />
-    <div className={classes.aboutProfileImg}>
+    <div className={classes.aboutBackground}>
       <img className={classes.profilePicture} src={img} alt="profilePic"/>
         <div className={classes.root}>
           <Paper elevation={4} className={classes.paper}>
