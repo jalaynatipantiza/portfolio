@@ -16,6 +16,9 @@ export default function Navbar() {
   const handleHomeClick = () => {
     history.push("/")
   }
+  const handleProjectsClick = () => {
+    history.push("/projects")
+  }
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.appBar}>
@@ -23,7 +26,7 @@ export default function Navbar() {
           <HomeIcon className={classes.homeButton} onClick={handleHomeClick} />
           <div className={classes.endButtons}>
             <button className={classes.buttons} onClick={handleAboutClick}>About</button>
-            <button className={classes.buttons} onClick={handleAboutClick}>Contact Me</button>
+            <button className={classes.buttons} onClick={handleProjectsClick}>Projects</button>
             <button className={classes.buttons} onClick={handleAboutClick}>Blog</button>   
           </div>
         </Toolbar>

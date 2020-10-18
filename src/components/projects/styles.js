@@ -20,6 +20,13 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: '100%',
     maxHeight: '100%',
   },
+  projects: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    backgroundColor: "#004d4d",
+    
+  }
 }));
 
 export default useStyles;

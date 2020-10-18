@@ -3,6 +3,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import useStyles from "./styles"
 import Container from '@material-ui/core/Container';
 import img from '../../documents/jalayna.jpeg'
+import BottomNav from '../../components/breadcrumbs/bottomNav'
 
 export default function PhotoIntro() {
   const classes = useStyles();
@@ -14,6 +15,7 @@ export default function PhotoIntro() {
     </Container>
     <div className={classes.profileContainer}>
     <img className={classes.profilePic} src={img} alt="profilePic"/>
+    <BottomNav/>
     </div>
   </React.Fragment> 
   );
