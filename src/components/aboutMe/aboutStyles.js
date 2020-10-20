@@ -1,21 +1,15 @@
 import { makeStyles } from '@material-ui/core/styles';
+import aboutMe1 from '../../documents/aboutMe1.jpg';
 
 const useStyles = makeStyles((theme) => ({
-  profilePicture: {
-    // verticalAlign: "middle",
-    maxWidth: "50%",
-    maxHeight: "50%",
-    borderRadius: "50%",
-    // width: "27rem",
-    // height: "35rem",
-    // borderRadius: "50%",
-    // margin: "2em",
-    padding: "5em 3em 5em 3em;"
-  },
   aboutBackground:{
-   display: "flex",
-   backgroundColor: " rgba(0,0,0,.5)",
-   height: "100vh",
+  backgroundImage: `url(${aboutMe1})`,
+  backgroundRepeat: "no-repeat",
+  backgroundAttachment: "fixed",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  height: "50vh",
+  borderBottom: "3px solid #bbb"
    
   },
   root: {
