@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-
+import background1 from "../../documents/background1.png"
 
 const useStyles = makeStyles((theme) => ({
   profilePic: {
@@ -18,6 +18,14 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "4em",
     display: "flex",
     textAlign: "center"
+  },
+  background1: {
+    backgroundImage: `url(${background1})`,
+    backgroundRepeat: "no-repeat",
+    backgroundAttachment: "fixed",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    height: "100vh"
   }
 }));
 

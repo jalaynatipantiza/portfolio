@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React  from 'react';
 import './App.css';
-import useStyles from "./appStyles"
 import About from './components/aboutMe/about';
 import { BrowserRouter as Router,  Route, Switch } from 'react-router-dom';
 import PhotoIntro from './components/profile/landingpage';
@@ -11,22 +10,11 @@ import ProList from '../src/components/projects/proList';
 
 
 function App() {
-  const classes = useStyles();
- 
-  const [offsetY, setOffsetY] = useState(0)
-  // const handleScroll = () => setOffsetY(window.pageYOffset)
-
-  // useEffect(() =>{
-  //   window.addEventListener("scroll", handleScroll)
-  //   return () => window.removeEventListener("scroll", handleScroll);
-
-  // }, [])
-
   return (
     <Router>
       <main>
         <section>
-        <div className={classes.background1} style={{transform: `translateY(-${offsetY * 0.5}px)`}}>
+        <div >
         <Navbar/>
         <Route render={({location}) => (
           <TransitionGroup>
