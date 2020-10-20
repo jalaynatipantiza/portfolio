@@ -1,21 +1,38 @@
 import { makeStyles } from '@material-ui/core/styles';
+import css from '../documents/Css.png';
+
+
+
 
 const useStyles = makeStyles((theme) => ({
-  
-  root: {
-    minWidth: "50em",
-    
 
+  techStackBoxMain: {
+    backgroundColor: "#ffe6e6",
+    height: "50vh",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between"
   },
-  wrapper: {
-    width: 100 + theme.spacing(2),
+  centerCircle: {
+    background: "lightblue",
+    width: "400px",
+    height: "200px ",
+    borderRadius: "200px 200px 0 0",
+    alignSelf: "center"
   },
-  paper: {
-    zIndex: 1,
-    position: 'relative',
-    margin: theme.spacing(1),
+  logo: {
+    width: "70px",
+    height: "70px",
+    borderRadius: "50%",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    margin: "5em auto 0"
   },
-  
+  imgSemiCircle:{
+
+    alignSelf: "center"
+  }
+
 }));
 
 export default useStyles;

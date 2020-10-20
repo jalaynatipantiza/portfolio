@@ -3,8 +3,10 @@ import img from '../../documents/jalayna.jpeg';
 
 const useStyles = makeStyles({
   mainBox: {
-    backgroundColor: "#ffe6e6",
+    backgroundColor: "white",
     height: "50vh",
+    display: "flex",
+    justifyContent: "space-around"
   },
   twoPic: {
     display: "flex",
@@ -28,6 +30,12 @@ const useStyles = makeStyles({
     backgroundSize: "cover",
     alignSelf: "center",
    
+  },
+  descriptionOfMe: {
+    height: "25vw",
+    width: "35vw",
+    padding: "50px",
+    fontSize: "20px"
   }
 });
 
