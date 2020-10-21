@@ -8,7 +8,8 @@ const useStyles = makeStyles((theme) => ({
     display: "flex", 
     justifyContent: "center",
     fontSize:"4vh",
-    marginTop: "12px"
+    marginTop: "12px",
+    fontFamily: "Abhaya Libre"
   },
   techStackBoxMain: {
     backgroundColor: "#ffe6e6",

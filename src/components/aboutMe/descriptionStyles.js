@@ -2,17 +2,27 @@ import { makeStyles } from '@material-ui/core/styles';
 import headshot from '../../documents/headshot.jpg'
 import workspace from '../../documents/workspace.jpg'
 const useStyles = makeStyles({
+  h1: {
+    fontFamily: "Abhaya Libre",
+    display: "flex", 
+    justifyContent: "center",
+    fontSize:"4vh",
+    marginTop: "4px",
+  },
+  secondarybox: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-around"
+  },
   mainBox: {
     backgroundColor: "white",
     height: "50vh",
-    display: "flex",
-    justifyContent: "space-around"
+
   },
   twoPic: {
     display: "flex",
     height: "25vw",
-    width: "25vw",
-    padding: "15px",
+    width: "25vw"
   },
   workspacePic: {
     backgroundImage: `url(${workspace})`,
@@ -34,7 +44,6 @@ const useStyles = makeStyles({
   descriptionOfMe: {
     height: "25vw",
     width: "35vw",
-    padding: "50px",
     fontSize: "20px"
   }
 });
