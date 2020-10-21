@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
-import img from '../../documents/jalayna.jpeg';
-
+import headshot from '../../documents/headshot.jpg'
+import workspace from '../../documents/workspace.jpg'
 const useStyles = makeStyles({
   mainBox: {
     backgroundColor: "white",
@@ -14,18 +14,18 @@ const useStyles = makeStyles({
     width: "25vw",
     padding: "50px",
   },
-  profilePicture: {
-    backgroundImage: `url(${img})`,
-    width: "50%",
-    height: "50%",
+  workspacePic: {
+    backgroundImage: `url(${workspace})`,
+    width: "90%",
+    height: "70%",
     backgroundPosition: "center",
     backgroundSize: "cover",
     margin: "10px"
   },
-  random: {
-    backgroundImage: `url(${img})`,
-    width: "50%",
-    height: "50%",
+  me: {
+    backgroundImage: `url(${headshot})`,
+    width: "90%",
+    height: "70%",
     backgroundPosition: "center",
     backgroundSize: "cover",
     alignSelf: "center",
