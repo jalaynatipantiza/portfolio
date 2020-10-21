@@ -3,7 +3,7 @@ import headshot from '../../documents/headshot.jpg'
 import workspace from '../../documents/workspace.jpg'
 const useStyles = makeStyles({
   mainBox: {
-    backgroundColor: "#ffe6e6",
+    backgroundColor: "white",
     height: "50vh",
     display: "flex",
     justifyContent: "space-around"
@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     display: "flex",
     height: "25vw",
     width: "25vw",
-    padding: "50px",
+    padding: "15px",
   },
   workspacePic: {
     backgroundImage: `url(${workspace})`,

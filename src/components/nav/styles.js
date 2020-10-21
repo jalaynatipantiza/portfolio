@@ -16,8 +16,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "transparent",
     border: "none",
     outline: "none",
-    fontSize: "20px",
-    padding: "0 50px"
+    fontSize: "3vh",
+    padding: "0 50px",
+    fontFamily: "Abhaya Libre"
   },
  
   toolBar: {
@@ -27,6 +28,15 @@ const useStyles = makeStyles((theme) => ({
   endButtons: {
     display: "flex",
     justifyContent: "flex-end",
+  },
+  homeButton: {
+    fontFamily: "Great Vibes",
+    fontSize: "5vh",
+    background: "transparent",
+    border: "none",
+    outline: "none",
+    color: "white"
+
   }
 
  

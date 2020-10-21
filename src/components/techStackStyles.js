@@ -4,9 +4,14 @@ import img from '../documents/computer.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
-
+  h1: {
+    display: "flex", 
+    justifyContent: "center",
+    fontSize:"4vh",
+    marginTop: "12px"
+  },
   techStackBoxMain: {
-    backgroundColor: "white",
+    backgroundColor: "#ffe6e6",
     height: "50vh",
     display: "flex",
     flexDirection: "column",

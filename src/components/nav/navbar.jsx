@@ -10,8 +10,8 @@ export default function Navbar() {
 
   const history = useHistory();
 
-  const handleAboutClick = () => {
-    history.push("/about")
+  const handleBlog = () => {
+    alert("Feature coming soon!")
   }
   const handleHomeClick = () => {
     history.push("/")
@@ -23,11 +23,11 @@ export default function Navbar() {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar className={classes.toolBar}>
-          <HomeIcon className={classes.homeButton} onClick={handleHomeClick} />
+          {/* <HomeIcon className={classes.homeButton} onClick={handleHomeClick} /> */}
+          <button className={classes.homeButton} onClick={handleHomeClick}>Jalayna</button>
           <div className={classes.endButtons}>
-            <button className={classes.buttons} onClick={handleAboutClick}>About</button>
             <button className={classes.buttons} onClick={handleProjectsClick}>Projects</button>
-            <button className={classes.buttons} onClick={handleAboutClick}>Blog</button>   
+            <button className={classes.buttons} onClick={handleBlog}>Blog</button>   
           </div>
         </Toolbar>
       </AppBar>

@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import background1 from "../../documents/background1.png"
+import background1 from "../../documents/aboutMe1.jpg"
 
 const useStyles = makeStyles((theme) => ({
   profilePic: {
@@ -20,12 +20,12 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center"
   },
   background1: {
-    backgroundImage: `url(${background1})`,
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "100vh"
+    height: "100vh",
+    background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${background1})`
   }
 }));
 
