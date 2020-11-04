@@ -12,11 +12,9 @@ export default function ProList(props) {
   })
 
   return (
-    <div>
     <div className={classes.projects}>
       <h1 style={{color: "white", fontFamily: "initial", margin: "40px 0 0", padding: "40px 0 0 ", fontSize: "40px"}}>CHECK OUT MY WORK!</h1>
       {projectList}
-    </div>
     </div>
   )
 }

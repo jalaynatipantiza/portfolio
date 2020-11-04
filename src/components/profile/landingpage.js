@@ -14,10 +14,10 @@ export default function PhotoIntro() {
   <CssBaseline />
   <div className={classes.background1} style={{transform: `translateY(-${offsetY * 0.5}px)`}}>
     <Container fixed className={classes.caption}>
-      <div className={classes.words}>Hi. I'm Jalayna.</div>
+      {/* <div className={classes.words}>Hi. I'm Jalayna.</div> */}
     </Container>
     <div className={classes.profileContainer}>
-    <img className={classes.profilePic} src={img} alt="profilePic"/>
+    {/* <img className={classes.profilePic} src={img} alt="profilePic"/> */}
     <BottomNav/>
     </div>  
   </div>

@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import headshot from '../../documents/headshot.jpg'
+// import fullShot from '../../documents/fullShot.JPG'
 import workspace from '../../documents/workspace.jpg'
 const useStyles = makeStyles({
   h1: {
@@ -33,7 +33,7 @@ const useStyles = makeStyles({
     margin: "10px"
   },
   me: {
-    backgroundImage: `url(${headshot})`,
+    // backgroundImage: `url(${fullShot})`,
     width: "90%",
     height: "70%",
     backgroundPosition: "center",

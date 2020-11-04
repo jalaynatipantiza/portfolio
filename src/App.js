@@ -34,10 +34,10 @@ function App() {
             {/* </CSSTransition>
            </TransitionGroup>
         )} /> */}
-        <Route path="/projects" component={ProList}/>
           </div>
         </section>
       </main>
+      <Route path="/projects" component={ProList}/>
     </Router>
   );
 }

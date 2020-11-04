@@ -1,14 +1,15 @@
 import { makeStyles } from '@material-ui/core/styles';
+import img from "../../documents/projectBackground.jpg"
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
   paper: {
     margin: '2em',
     padding: '2em',
-    maxWidth: '60em',
-    backgroundColor: "lightgray"
+    width: '60em',
+    background: "lightgray",
+    '&:hover': {
+      background: "#f1dada"
+   },
   },
   image: {
     width: 128,
@@ -24,8 +25,11 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    backgroundColor: "#004d4d",
-    
+    bbackgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    height: "200vh",
+    background: `url(${img})`
   }
 }));
 

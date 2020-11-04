@@ -9,7 +9,7 @@ import Link from '@material-ui/core/Link';
 export default function ProjectCard(props) {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <div  className={classes.root}>
       <Paper className={classes.paper} >
         <Link href={props.link} target="_blank" style={{ textDecoration: 'none', color: "black" }} color="inherit">
         <Grid container spacing={2}>
